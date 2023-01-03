@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'GraphikLCG';
+    font-weight: 400;
+    font-style: normal;
+    src:    local('GraphikLCG'),
+            url('./fonts/GraphikLCG-Regular.ttf') format('ttf'),
+            url('./fonts/GraphikLCG-Regular.woff') format('woff'),
+            url('./fonts/GraphikLCG-Regular.woff2') format('woff2');
+            font-display: swap;
+}
+@font-face {
+    font-family: 'GraphikLCG';
+    font-weight: 600;
+    font-style: normal;
+    src:    local('GraphikLCG'),
+            url('./fonts/GraphikLCG-Semibold.ttf') format('ttf'),
+            url('./fonts/GraphikLCG-Semibold.woff') format('woff'),
+            url('./fonts/GraphikLCG-Semibold.woff2') format('woff2');
+            font-display: swap;
+}
+body{
+    min-width: 1440px;
+    font-family: 'GraphikLCG';
+    width: 1440px;
+}
+ul a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+    ul .list{
+    margin-right: 50px;
+}
+.list a{
+    color: black;
+}
+.header{
+    max-height: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button{
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid;
+}
+.try{
+    background-color: #FF6336;
+    color: white;
+}
+.btn{
+    margin: 25px auto 25px 10px;
+    height: 45px;
+    width: 120px;
+}
+.btns:last-child{
+    margin-right: 50px;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between; 
+}
+.free{
+    width: 160px;
+    height: 60px; 
+    color: white;
+    background-color: #FF6336;   
+}
+.book{
+    width: 160px;
+    height: 60px;
+    
+}
+.conteiner{
+margin: 130px 75px 180px ;
+}
+h1{
+    margin: 0 auto 50px 0;
+    height: 210px;
+    width: 552px;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.text{
+    height: 140px;
+    width: 470px;
+    font-size: 25px;
+}
+.under-text{
+    font-size: 15px;
+}
+.pic{
+    width: 760px;
+    height: 530px;
+}
+.bg-ye{
+    height: 455px;
+    background-color: #FF9C7D;
+}
+.item-brand{  
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin: 108px auto 70px;
+    width: 720px;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.brand{
+    display: flex;
+    justify-content: center;    
+}
+.brand li{
+    margin-right: 103px;
+}
+h3{
+    font-weight: 600;
+    font-size: 50px;
+    width: 379px;
+}
+
+   
+
+.link{
+    font-size: 20px;
+    font-weight: 600;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+.picture{
+    width: 632px;
+    height:632px;
+}
+.card-story{
+    width: 660px;
+}
+.cards{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards > div:nth-child(n+3){
+margin-top:250px;
+}
+.line{
+    text-decoration: underline;
+}
+h3:first-child{
+    width: 500px;
+}
+.story{
+    font-size: 20px;
+    width: 540px;
+    line-height: 30px;
+}
+.story:first-child{
+    width: 500px;
+}
+.story:nth-child(2){
+    width: 450px;
+}
+.item-icon{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 120px;
+}  
+.bg-lightye{
+    height: 1053px;
+    background-color: #FFF8E4;
+    margin-bottom: 70px;
+}
+h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    
+}
+.block-icon {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.block {
+    width: 330px;
+    height: 294px;
+    margin:57px 55px 20px;
+}
+
+.icon {
+    width: 160px;
+    height: 120px;
+    margin-left: 85px; 
+}
+.block-text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.box-item {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    margin:150px auto 70px;
+}
+.boxs {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 410px;
+    margin:10px 0 150px 15px;
+}
+.box-img {
+    height: 185px;
+    width: 175px;
+    margin-bottom: 20px;
+}
+.box-list{
+    font-size: 30px;
+    font-weight: 600;
+}
+.box-text {
+    font-size: 20px;
+    line-height: 30px;
+    width: 410px;
+}
+.box-link {
+    font-size: 20px;
+    line-height: 30px;
+}
+.box-link a{
+    text-decoration: underline;
+}
+.bg-bl{
+    background-color: #C9E8F2;
+    display: flex;
+    height: 470px;
+    justify-content: space-around;
+}
+.bl-text {
+    margin-top: 43px;
+    font-size: 30px;
+    width: 920px;
+    line-height: 40px;
+}
+.bl-name {
+    font-size: 15px;
+}
+.photo {
+    margin-top: 53px;
+}
+.photo img{
+    height: 310px;
+    width: 310px;
+}
