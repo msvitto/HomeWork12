@@ -267,3 +267,51 @@ h4{
     height: 310px;
     width: 310px;
 }
+.bg-br{
+    background-color: #DABC98;
+    height: 332px;
+    
+}
+.br-cake{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+.bg-br p{
+    font-size: 35px;
+    font-weight: 600;
+    width: 461px;
+}
+.cake{
+    width: 176px;
+    height: 154px;
+}
+.star{
+    width: 481px;
+    height: 168px;
+}
+
+.bird-item{
+    font-size: 65px;
+    font-weight: 600px;
+    line-height: 75px;
+    width: 791px;
+    text-align: center;
+}
+.bird-text{
+    font-size: 25px;
+    line-height: 30px;
+    width: 539px;
+    text-align: center;
+}
+.bird img{
+    height: 445px;
+    width: 1023px;
+    
+}
+.btn-bird{
+    color:white;
+    background-color: #FF6336;
+    width: 193px;
+    height: 60px;
+}
