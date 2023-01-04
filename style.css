@@ -28,11 +28,28 @@ ul a{
 }
 li{
     list-style-type: none;
-    display: inline-block;
 }
-    ul .list{
+ul .list{
+    display: inline-block;
     margin-right: 50px;
 }
+.header-list{
+    margin-left: 190px;
+}
+.lokalise{
+    position: relative;
+    
+}
+.lokalise:before{
+    content:url('img/Group\ \(1\).png');
+    position: absolute;
+    margin-left: -170px; 
+    margin-top: -5px;
+}
+
+
+
+
 .list a{
     color: black;
 }
@@ -126,8 +143,6 @@ h3{
     width: 379px;
 }
 
-   
-
 .link{
     font-size: 20px;
     font-weight: 600;
@@ -142,6 +157,7 @@ p a{
 }
 .card-story{
     width: 660px;
+    margin-top: 140px;
 }
 .cards{
     margin-top: 90px;
@@ -297,21 +313,147 @@ h4{
     line-height: 75px;
     width: 791px;
     text-align: center;
+    margin:160px auto 0;
 }
 .bird-text{
     font-size: 25px;
     line-height: 30px;
     width: 539px;
-    text-align: center;
+    margin:10px auto 0;
 }
-.bird img{
+.bird-img img{
     height: 445px;
     width: 1023px;
-    
+    display: block;
+    margin:10px auto 0;
 }
 .btn-bird{
     color:white;
     background-color: #FF6336;
     width: 193px;
     height: 60px;
+    display: block;
+    margin:20px auto 150px;
+}
+.bg-peach {
+    background-color: #FF9C7D;
+    height: 603px;
+}
+.peach-item {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 75px;
+    display: block;
+    margin: 0 auto;
+    padding: 120px 10px 10px 10px;
+    width: 784px;
+    text-align: center;
+}
+.peach-text {
+    font-size: 20px;
+    line-height: 30px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.peach-btn {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 60px;
+    border: 1px black solid;
+    width: 160px;
+    height: 60px;
+    display: block;
+    margin: 50px auto 160px;
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.bg-footer {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+} 
+.footer-list li{
+    display: flex;
+}
+.footer-list ul{
+    display: inline-block;
+    
+}
+.footer-content img{
+    display: block;
+} 
+.content-item{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+.content-picture{
+height: 300px;
+width: 300px;
+}
+.content-logo{
+    margin-top: 20px;
+    height: 32px;
+    width: 80px;
+}
+.content-text{
+    width: 290px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content-link{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-list li{
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+.footer-list li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 58px;
+}
+.ft{
+display: flex;
+justify-content: space-between;
+margin: 40px 0 20px;
+}
+.ft-logo{
+    width: 90px;
+    height: 20px;
+}
+.ft-text{
+    width: 300px;
+    font-size: 12px;
+    line-height: 15px;
+    position: relative;
+    left: 100px;
+}
+.ft-text::before{
+    content:url('img/Group (6).png') ;
+    position: absolute;
+    margin-left: -100px; 
+}
+.ft-year p{
+    width: 109px;
+    font-size: 12px;
+    line-height: 15px;
+}
+.ft-year{
+    display: block;
 }
