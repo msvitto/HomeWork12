@@ -1,0 +1,10 @@
+.footer-content{
+    
+}
+.bg-footer{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
