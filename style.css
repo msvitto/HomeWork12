@@ -4,52 +4,40 @@ body{
 }
 ul a{
     text-decoration: none;
+    color: initial;
 }
 li{
     list-style-type: none;
 }
 
-
-
-
-
+.container{
+    margin: 0 auto;
+}
 .header-list{
-    width: 600px;
+    width: 740px;
+    height: 100px;
+    align-items: center;
     display: flex;
     justify-content: space-around;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-.lokalise{
-    position: relative; 
-}
-.lokalise:before{
-    content:url('img/Group\ \(1\).png');
-    position: absolute;
-    right: 140px; 
-    top: -5px;
+    flex-wrap: wrap; 
 }
 .header{
+    max-width: 1440px;
     height: 100px;
     display: flex;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-between;
 }
 .header-btns{
     width: 260px;
     margin-left: auto;
     display: flex; 
     justify-content: flex-end; 
-} 
-
-
-
+    flex-wrap: wrap;
+}
 .list a{
     color: black;
-}
-.linia{
-    border-bottom: 1px rgb(197, 194, 194) solid;
 }
 button{
     font-weight: 600;
@@ -67,24 +55,23 @@ button{
     width: 120px;
 }
 
-
-
-
-.conteiner{
+.wrapper{
+    border-top: 1px solid #CCCCCC;
+    max-width: 1440px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    height: 860px;
-    display: flex;
-    margin: 0 auto;
+    justify-content: space-between;
+    min-height: 860px;
     align-items: center;
+    margin: 0 auto;
 }
 .content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    gap:50px;
+    flex-wrap: wrap;
+    height: 610px;
 }
 .free{
     width: 160px;
@@ -92,12 +79,17 @@ button{
     color: white;
     background-color: #FF6336;   
 }
+.btns{
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .book{
     width: 160px;
     height: 60px;
 }
 .cnt-item{
-    /* height: 210px; */
     width: 552px;
     font-size: 65px;
     font-weight: 600;
@@ -115,15 +107,12 @@ button{
     height: 530px;
 }
 
-
-
-
 .bg-ye{
-    height: 350px;
+    height: 450px;
     background-color: #FF9C7D;
-    padding-top: 100px;
-    
-
+    padding-top: 100px; 
+    margin: 0 auto;
+    max-width: 1440px;
 }
 .item-brand p{  
     width: 720px;
@@ -135,19 +124,15 @@ button{
     justify-content:center;
     height: 200px;  
     align-self: center;
-    
-    
+    flex-wrap: wrap;
 }
 .brand { 
     display: flex; 
     justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
     
 }
-
-
-
-
-
 
 .cart-item{
     font-weight: 600;
@@ -165,9 +150,6 @@ p a{
     color: black;
 }
 
-
-
-
 .container-story{
     padding-top: 90px;
     display: flex;
@@ -175,21 +157,23 @@ p a{
     justify-content: space-around;
     align-items: center;
     padding-bottom: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
-
+.cards{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .card-story{
     display: flex;
     flex-direction: column;
-    line-height:70px;
-    align-self:center;
-    height: 100%;
+    justify-content: space-around;
+    height: 355px;
 }
 .card-picture{
     height: 632px;
     width: 632px;
 }
-
-
 
 .line{
     text-decoration: underline;
@@ -204,13 +188,9 @@ p a{
     line-height: 30px;
 }
 
-
-
-
-
-
-
 .bg-lightye{
+    margin: 0 auto;
+    max-width: 1440px;
     padding-top: 120px;
     min-height: 1053px;
     max-height: 2500px;
@@ -224,7 +204,6 @@ p a{
     font-size: 50px;
 }  
 .block {
-    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -257,11 +236,9 @@ p a{
     text-align: center;
 }
 
-
-
-
-
 .bg-wh{
+    margin: 0 auto;
+    max-width: 1440px;
     padding-top: 150px ;
     padding-bottom: 70px;
 }
@@ -280,12 +257,10 @@ p a{
 }
 .box {
     width: 410px;
-    margin:0 auto;
 }
 .box-img {
     height: 185px;
     width: 190px;
-    /* margin-bottom: 20px; */
 }
 .box-list{
     font-size: 30px;
@@ -304,11 +279,9 @@ p a{
     text-decoration: underline;
 }
 
-
-
-
-
 .bg-bl{
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #C9E8F2;
     display: flex;
     height: 470px;
@@ -328,14 +301,11 @@ p a{
     width: 310px;
 }
 
-
-
-
-
 .bg-br{
+    max-width: 1440px;
     background-color: #DABC98;
     height: 332px; 
-    
+    margin: 0 auto;
 }
 .br-cake{
     display: flex;
@@ -357,11 +327,9 @@ p a{
     height: 168px;
 }
 
-
-
-
 .bird{
-    margin:0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,13 +361,11 @@ p a{
     height: 60px;
 }
 
-
-
-
 .bg-peach {
     background-color: #FF9C7D;
     height: 603px;
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -410,8 +376,7 @@ p a{
     font-size: 65px;
     font-weight: 600;
     line-height: 75px;
-    margin: 0 auto;
-    width: 784px;
+    max-width: 784px;
     text-align: center;
 }
 .peach-text {
@@ -434,17 +399,19 @@ button a{
     color: inherit;
 }
 
-
-
 .bg-footer {
+    max-width: 1440px;
+    margin: 0 auto;
     padding-top: 95px;
     padding-bottom: 80px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0 auto; 
 } 
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+}
 .footer-content li{
     font-size: 15px;
     line-height: 15px;
@@ -485,39 +452,48 @@ button a{
         flex-wrap: wrap;
     }
     
-
-
-
-
-
-
-
 .ft{
+border-top: 1px black solid;
 display: flex;
-width: 100%;
-justify-content: space-around;  
-margin-left: auto; 
-margin-right: auto; 
+justify-content: space-between;  
+margin:0 auto;  
 padding-bottom: 40px;
 padding-top: 50px;
+max-width: 1440px;
 }
-
+.ft-logo{
+    display: flex;
+    width: 411px;
+    justify-content: space-between;
+    
+}
 .ft-text{
     width: 300px;
     font-size: 12px;
     line-height: 15px;
     position: relative;
 }
-.ft-text::before{
-    content:url('img/Group (6).png') ;
-    position: absolute;
-    left: -120px; 
-}
 .ft-year p{
     width: 109px;
     font-size: 12px;
     line-height: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
