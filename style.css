@@ -1,6 +1,26 @@
+@font-face {
+    font-family:'GraphikLCG';
+    font-weight:400;
+    font-style: normal;
+    src:local('GraphikLCG-Regular'),
+        url('fonts/GraphikLCG-Regular.woff') format('woff'),
+        url('fonts/GraphikLCG-Regular.woff2') format('woff2'),
+        url('fonts/GraphikLCG-Regular.ttf') format('ttf');
+    font-display: swap;    
+}
+@font-face {
+    font-family:'GraphikLCG';
+    font-weight: 600;
+    font-style: normal;
+    src:local('GraphikLCG-Semibold'),
+        url('fonts/GraphikLCG-Semibold.woff') format('woff'),
+        url('fonts/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('fonts/GraphikLCG-Semibold.ttf') format('ttf');
+    font-display: swap;
+}
 body{
     font-family: 'GraphikLCG';
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 ul a{
     text-decoration: none;
@@ -9,7 +29,9 @@ ul a{
 li{
     list-style-type: none;
 }
-
+.btn{
+    cursor:pointer;
+}
 .container{
     margin: 0 auto;
 }
@@ -22,7 +44,7 @@ li{
     flex-wrap: wrap; 
 }
 .header{
-    max-width: 1440px;
+    max-width: 1290px;
     height: 100px;
     display: flex;
     margin: 0 auto;
@@ -57,21 +79,19 @@ button{
 
 .wrapper{
     border-top: 1px solid #CCCCCC;
-    max-width: 1440px;
+    max-width: 1290px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 860px;
-    align-items: center;
     margin: 0 auto;
 }
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
     flex-wrap: wrap;
     height: 610px;
+    padding-top: 129px;
 }
 .free{
     width: 160px;
@@ -94,25 +114,32 @@ button{
     font-size: 65px;
     font-weight: 600;
     line-height: 70px;
+    padding-bottom: 51px;
 }
 .cnt-text{
     width: 470px;
     font-size: 25px;
+    padding-bottom: 51px;
+    line-height: 35px;
+
 }
 .under-text{
     font-size: 15px;
+    padding-top: 25px;
+    
 }
 .pic{
-    width: 760px;
-    height: 530px;
+    width: 738px;
+    height: 529px;
+    padding-top: 151px;
 }
 
 .bg-ye{
-    height: 450px;
+    height: 455px;
     background-color: #FF9C7D;
     padding-top: 100px; 
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 100%;
 }
 .item-brand p{  
     width: 720px;
@@ -128,17 +155,18 @@ button{
 }
 .brand { 
     display: flex; 
-    justify-content: space-around;
-    max-width: 1440px;
+    justify-content: space-between;
+    max-width: 1290px;
     margin: 0 auto;
     
 }
 
-.cart-item{
+.card-item{
     font-weight: 600;
     font-size: 50px;
     width: 379px;
-    line-height:60px
+    line-height:60px;
+  
 }
 
 .link{
@@ -154,20 +182,20 @@ p a{
     padding-top: 90px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 100px;
-    max-width: 1400px;
+    max-width: 1290px;
     margin: 0 auto;
 }
 .cards{
-    max-width: 1440px;
+    max-width: 1290px;
     margin: 0 auto;
 }
 .card-story{
+    max-width: 520px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 355px;
 }
 .card-picture{
@@ -178,24 +206,25 @@ p a{
 .line{
     text-decoration: underline;
 }
-.cart-item{
+.card-item{
     width: 500px;
+    padding-bottom: 30px;
     
 }
 .story{
     font-size: 20px;
-    width: 500px;
+    max-width: 520px;
     line-height: 30px;
+    padding-bottom: 30px;
 }
 
 .bg-lightye{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 100%;
     padding-top: 120px;
-    min-height: 1053px;
     max-height: 2500px;
     background-color: #FFF8E4;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
 }
 .item-icon{
     display: flex;
@@ -205,11 +234,15 @@ p a{
 }  
 .block {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin:0 auto;
-    padding-top: 150px;
+    padding-top: 75px;
+    max-width: 1290px;
     
+}
+.block:last-child{
+    padding-bottom: 147px;
 }
 .block-icon {
     width: 330px;
@@ -224,6 +257,7 @@ p a{
     font-size: 25px;
     line-height: 35px;
     text-align: center; 
+    padding-top: 23px;
 }
 .icon {
     width: 160px;
@@ -234,11 +268,12 @@ p a{
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    padding-top: 23px;
 }
 
 .bg-wh{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1290px;
     padding-top: 150px ;
     padding-bottom: 70px;
 }
@@ -253,23 +288,36 @@ p a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 150px;
+    /* padding-top: 150px; */
 }
 .box {
     width: 410px;
 }
-.box-img {
-    height: 185px;
-    width: 190px;
+.box-img-1 {
+    height: 201px;
+    width: 145px;
+    padding: 75px 0 49px;
+}
+.box-img-2 {
+    height: 166px;
+    width: 179px;
+    padding: 92px 0 67px;
+}
+.box-img-3 {
+    height: 183px;
+    width: 179px;
+    padding: 84px 0 58px;
 }
 .box-list{
     font-size: 30px;
     font-weight: 600;
+    padding-bottom: 34px;
 }
 .box-text {
     font-size: 20px;
     line-height: 30px;
     width: 410px;
+    padding-bottom: 26px;
 }
 .box-link {
     font-size: 20px;
@@ -280,47 +328,69 @@ p a{
 }
 
 .bg-bl{
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 100%;
+    
     background-color: #C9E8F2;
-    display: flex;
+    
     height: 470px;
-    justify-content: space-around;
-    align-items: center;
+    
+    
+    
+}
+.bl{
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
 }
 .bl-text {
     font-size: 30px;
     width: 920px;
     line-height: 40px;
+    padding-top: 63px;
+
 }
 .bl-name {
     font-size: 15px;
+    padding: 23px 0 7px;
 }
 .photo img{
     height: 310px;
     width: 310px;
+    padding-top: 53px;
 }
 
 .bg-br{
-    max-width: 1440px;
+    max-width: 100%;
     background-color: #DABC98;
     height: 332px; 
-    margin: 0 auto;
+}
+.cake-text{
+    display: flex;
+    align-items: center;
 }
 .br-cake{
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+    max-width: 1290px;
+    flex-wrap: wrap;
 }
 .bg-br p{
     font-size: 35px;
     font-weight: 600;
+    line-height: 50px;
     width: 461px;
 }
 .cake{
     width: 176px;
     height: 154px;
+    padding-right: 67px;
+}
+.br-star{
+    border-left: 1px solid #000;
 }
 .star{
     width: 481px;
@@ -328,18 +398,17 @@ p a{
 }
 
 .bird{
-    max-width: 1440px;
+    max-width: 1290px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 1100px;
-    gap: 20px;
     justify-content: center;
 }
 .bird-item{
     font-size: 65px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 75px;
     width: 791px;
     text-align: center;
@@ -349,28 +418,32 @@ p a{
     line-height: 30px;
     width: 539px;
     text-align: center;
+    padding-bottom: 25px;
 }
 .bird-img img{
     height: 445px;
     width: 1023px;
+    padding-bottom: 32px;
 }
 .btn-bird{
+    cursor: pointer;
     color:white;
     background-color: #FF6336;
     width: 193px;
     height: 60px;
 }
-
-.bg-peach {
-    background-color: #FF9C7D;
+.peach{
     height: 603px;
-    max-width: 1440px;
+    max-width: 1290px;
     margin: 0 auto;;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+}
+.bg-peach {
+    background-color: #FF9C7D;
+    
 }
 .peach-item {
     font-size: 65px;
@@ -378,11 +451,13 @@ p a{
     line-height: 75px;
     max-width: 784px;
     text-align: center;
+    padding-bottom: 29px;
 }
 .peach-text {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    padding-bottom: 54px;
 }
 .peach-btn {
     background-color: black;
@@ -393,6 +468,7 @@ p a{
     border: 1px black solid;
     width: 160px;
     height: 60px;
+    cursor: pointer;
 }
 button a{
     text-decoration: none;
@@ -400,17 +476,20 @@ button a{
 }
 
 .bg-footer {
-    max-width: 1440px;
+    max-width: 1290px;
     margin: 0 auto;
     padding-top: 95px;
     padding-bottom: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 } 
 .footer-content{
     display: flex;
     align-items: flex-start;
+}
+.footer-content:first-child{
+    padding-right: 106px;
 }
 .footer-content li{
     font-size: 15px;
@@ -459,7 +538,7 @@ justify-content: space-between;
 margin:0 auto;  
 padding-bottom: 40px;
 padding-top: 50px;
-max-width: 1440px;
+max-width: 1290px;
 }
 .ft-logo{
     display: flex;
@@ -494,11 +573,3 @@ max-width: 1440px;
 
 
 
-
-
-
-
-.lini{
-    border: 1px black solid;
-    margin: 0 auto;
-}
