@@ -18,30 +18,49 @@
         url('fonts/GraphikLCG-Semibold.ttf') format('ttf');
     font-display: swap;
 }
+@media screen and (max-width:576px) {
+    body{
+        font-family: 'GraphikLCG';
+        overflow-x: hidden;
+    }
+}
 body{
     font-family: 'GraphikLCG';
     overflow-x: hidden;
+}
+@media screen and (max-width:576px){
+    ul a{
+        text-decoration: none;
+        color: initial;
+    }
 }
 ul a{
     text-decoration: none;
     color: initial;
 }
+@media screen and (max-width:576px){
+    li{
+        list-style-type: none;
+    }
+}
 li{
     list-style-type: none;
+}
+@media screen and (max-width:576px){
+    .btn{
+        cursor:pointer;
+    }
 }
 .btn{
     cursor:pointer;
 }
+@media screen and (max-width:576px){
+    .container{
+        margin: 0 auto;
+    }
+}
 .container{
     margin: 0 auto;
-}
-.header-list{
-    width: 740px;
-    height: 100px;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
 }
 .header{
     max-width: 1290px;
@@ -50,6 +69,32 @@ li{
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+}
+.header-list{
+    width: 740px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap;  */
+}
+@media screen and (max-width: 576px){
+    .header-list{
+        margin-top: 20px;
+        flex-direction: row;
+        min-width: 576px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .header{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 576px){
+    .header-btns{
+        background-color: #FF9C7D;
+    }
 }
 .header-btns{
     width: 260px;
@@ -66,6 +111,13 @@ button{
     font-size: 16px;
     border: 1px solid;
 }
+@media screen and (max-width:576px){
+    button{
+        font-weight: 600;
+        font-size: 14px;
+        border: 1px solid;
+    }
+}
 .try{
     background-color: #FF6336;
     color: white;
@@ -76,7 +128,12 @@ button{
     height: 45px;
     width: 120px;
 }
-
+@media screen and (max-width:576px){
+    .btn{
+        height: 35px;
+        width: 90px;
+    }
+}
 .wrapper{
     border-top: 1px solid #CCCCCC;
     max-width: 1290px;
@@ -108,6 +165,11 @@ button{
 .book{
     width: 160px;
     height: 60px;
+}
+@media screen and (max-width: 576px){
+    .cnt-item{
+        font-size: 30px;
+    }
 }
 .cnt-item{
     width: 552px;
