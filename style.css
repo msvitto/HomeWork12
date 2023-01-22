@@ -80,20 +80,19 @@ li{
 }
 @media screen and (max-width: 576px){
     .header-list{
+        margin: 0 auto;
         margin-top: 20px;
-        flex-direction: row;
-        min-width: 576px;
+        display: flex;
     }
 }
 
 @media screen and (max-width: 576px){
     .header{
-        flex-direction: row;
     }
 }
 @media screen and (max-width: 576px){
     .header-btns{
-        background-color: #FF9C7D;
+    display: block;
     }
 }
 .header-btns{
